@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardElevation="@dimen/dp_3"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_5"
+    android:layout_marginTop="@dimen/dp_5">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/tv_listname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_15"
+        android:padding="@dimen/dp1_10"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dp_60"
+        android:background="@drawable/remove_shape"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/dp_10"/>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>

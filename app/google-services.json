@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1068310641128",
+    "firebase_url": "https://flashdelivery-82f5d.firebaseio.com",
+    "project_id": "flashdelivery-82f5d",
+    "storage_bucket": "flashdelivery-82f5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068310641128:android:21bb06e11be26b71",
+        "android_client_info": {
+          "package_name": "com.example.manjooralam.flashdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068310641128-s2a7ejvueb7cdco70j9h7vpi9uili9q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manjooralam.flashdelivery",
+            "certificate_hash": "45f0223ac50616fe05e1787d1b11c8fcad154152"
+          }
+        },
+        {
+          "client_id": "1068310641128-or8cieeioaas8imfgf88muonube4rjak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3znmzLhy6nxNuIOa8_Opc3Ob2bo4w8Yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068310641128-or8cieeioaas8imfgf88muonube4rjak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

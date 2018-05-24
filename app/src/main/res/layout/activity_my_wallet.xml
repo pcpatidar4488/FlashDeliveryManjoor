@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.manjooralam.flashdelivery.activities.MyWalletActivity">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="@dimen/dp_180"
+            android:layout_height="@dimen/dp_180"
+            android:background="@drawable/shape_circle"
+            android:layout_above="@+id/lebel_wallet_text"
+            android:layout_marginBottom="@dimen/dp_20"
+           android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rs"
+                    android:textSize="@dimen/txt_big"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:text="@string/s_available_balance"
+                    android:textSize="@dimen/txt_normal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/lebel_wallet_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_wallet_limit_txt"
+            android:layout_above="@+id/ll_bottom_container"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/dp_100"/>
+        <!-- bottom layout -->
+        <RelativeLayout
+            android:id="@id/ll_bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="@dimen/txt_extra_large"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:id="@+id/tv_submit"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:id="@+id/ll_money_wallet_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/s_add_money"
+                    android:textSize="@dimen/txt_normal"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_7"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tv_add_money"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/s_wallet_history"
+                    android:textSize="@dimen/txt_normal"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_7"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tv_wallet_history"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

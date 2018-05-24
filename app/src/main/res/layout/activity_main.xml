@@ -1,0 +1,130 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar_main" />
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_5"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/featured_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_2"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_8"
+                android:text="FEATURED PRODUCT"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/heavy_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/dp_2"
+                android:layout_marginRight="@dimen/dp_2"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_8"
+                android:text="HEAVY DISCOUNT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_very_small" />
+
+            <TextView
+                android:id="@+id/arrivals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_2"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_8"
+                android:text="NEW ARRIVALS"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_very_small" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_20">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_profile_image"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_centerHorizontal="true"
+                android:src="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/civ_profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="Welcome,  Manjoor Alam"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_extra_large" />
+
+            <TextView
+                android:id="@+id/tv_mobile_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_name"
+                android:layout_centerHorizontal="true"
+                android:text="9876543123"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_extra_large" />
+        </RelativeLayout>
+
+        <ExpandableListView
+            android:id="@+id/lvExp_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:listSelector="@drawable/my_list_selector" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

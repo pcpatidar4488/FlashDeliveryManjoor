@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My account" />
+        <item
+            android:id="@+id/creditprogram"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Credit Program" />
+        <item
+            android:id="@+id/orderonphone"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Order on Phone" />
+        <item
+            android:id="@+id/notificationcenter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notification Center" />
+        <item
+            android:id="@+id/superstorelocator"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Super Store Locator" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/companyinfo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Company Info" />
+        <item
+            android:id="@+id/shareapp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share app" />
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Shopping List"
+        android:gravity="center"
+        android:padding="@dimen/dp_15"
+        android:textSize="@dimen/dp1_15"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/et_shoppinglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter shopping list name"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:background="@null"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:background="#252525"
+        android:layout_marginTop="@dimen/dp_10"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/tv_cancellist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="@dimen/dp_20"
+            android:textColor="#151515"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp_100"/>
+        <TextView
+            android:id="@+id/tv_createlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create List"
+            android:textSize="@dimen/dp_20"
+            android:textColor="#cc0000"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp_50"/>
+
+    </LinearLayout>
+
+</LinearLayout>

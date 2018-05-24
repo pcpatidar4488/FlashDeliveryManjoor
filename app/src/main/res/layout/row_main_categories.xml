@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="@dimen/dp_8"
+    android:layout_marginBottom="@dimen/dp_20"
+    card_view:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150">
+
+        <ImageView
+            android:id="@+id/country_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/fruits_and_vegetables"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E6660066"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

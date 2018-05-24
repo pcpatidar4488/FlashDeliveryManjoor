@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <include layout="@layout/layout_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/dp_60"
+        android:paddingBottom="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_40"
+        android:paddingRight="@dimen/dp_40">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="@dimen/dp_8"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_20"
+            card_view:cardElevation="5dp"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/dp_40">
+
+                <ImageView
+                    android:id="@+id/iv_phone"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_130"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/ic_phone_call"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:id="@+id/lebel_order_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_phone"
+                    android:text="@string/s_order_on_phone_caps"
+                    android:textSize="@dimen/txt_big"
+                    android:textColor="@android:color/tab_indicator_text"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_10"/>
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lebel_order_phone"
+                    android:text="0755-404-2100"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt_big"
+                    android:layout_centerHorizontal="true"/>
+                <View
+                    android:id="@+id/v_separetor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_1"
+                    android:layout_below="@id/tv_phone"
+                    android:layout_alignLeft="@id/tv_phone"
+                    android:layout_alignRight="@id/tv_phone"
+                    android:background="@android:color/black"
+                    android:textSize="@dimen/txt_big"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="@dimen/dp_5"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

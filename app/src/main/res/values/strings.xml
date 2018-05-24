@@ -1,0 +1,516 @@
+<resources>
+    <string name="app_name">FlashDelivery</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="s_home">Home</string>
+    <string name="s_my_account">My Account</string>
+    <string name="s_credit_program">Credit Program</string>
+    <string name="s_order_on_phone">Order on Phone</string>
+    <string name="s_notification_center">Notification Center</string>
+    <string name="s_super_store_locator">Superstore Locator</string>
+    <string name="s_contact_us">Contact Us</string>
+    <string name="s_company_info">Company Info</string>
+    <string name="s_share_app">Share App</string>
+    <string name="s_my_orders">My Orders</string>
+    <string name="s_wallet">Wallet</string>
+    <string name="s_rewards">Rewards</string>
+    <string name="s_shopping_list">Shopping List</string>
+    <string name="s_change_mobile_number">Change Mobile No</string>
+    <string name="s_address_book">Address Book</string>
+    <string name="s_edit_profile">Edit Profle</string>
+    <string name="s_flash_dev">FlashDev</string>
+    <string name="s_offers">Offers</string>
+    <string name="s_cake_n_flowers"><![CDATA[Cakes & Flowers]]></string>
+    <string name="s_fruits_n_vegitables"><![CDATA[Fruits & Vegitables]]></string>
+    <string name="s_grocery_n_staples"><![CDATA[Grocery & Staples]]></string>
+    <string name="s_household">HouseHold</string>
+    <string name="s_beverages">Beverages</string>
+    <string name="s_personal_care">Personal Care</string>
+    <string name="s_dairy_n_bread"><![CDATA[Dairy & Bread]]></string>
+    <string name="s_branded_foods">Branded Foods</string>
+    <string name="s_order_on_phone_caps">ORDER ON PHONE</string>
+    <string name="s_select_reason">Select Reason</string>
+    <string name="s_enquiry">Enquiry</string>
+    <string name="s_feedback">Feedback</string>
+    <string name="s_suggestion">Suggestion</string>
+    <string name="s_complaint">Complaint</string>
+    <string name="s_online_payment_issues">Online payment issues</string>
+    <string name="rs">\u20B9</string>
+    <string name="s_available_balance">Available Balance</string>
+    <string name="s_add_money">Add Money</string>
+    <string name="s_wallet_history">Wallet History</string>
+    <string name="s_wallet_limit_txt">You can add upto Rs 6000 in your Wallet</string>
+    <string name="s_select_city">Select Reason</string>
+    <string name="s_select_city1">Select City</string>
+    <string name="s_patna">Patna</string>
+    <string name="s_Muzaffarpur">Muzaffarpur</string>
+    <string name="s_minimum_points_to_redeem">Minimum ponts to redeem 100</string>
+    <string name="s_summary">Summary</string>
+    <string name="s_about_us">About Us</string>
+    <string name="s_privacy_policy">Privacy Policy</string>
+    <string name="s_terms_and_conditions">Terms and Conditions</string>
+    <string name="action_search">Search</string>
+    <string name="s_featured_product">Featured Products</string>
+    <string name="s_heavy_discounts">Heavy Discounts</string>
+    <string name="s_new_arrivals">New Arrivals</string>
+    <string name="s_name">Name</string>
+    <string name="s_enter_detail">Please Enter Your Details</string>
+    <string name="s_forgot_password">Forgot Password ?</string>
+    <string name="s_full_name">Full Name</string>
+    <string name="s_didnt_receive_code">Didn`t receive a code</string>
+    <string name="s_wait">Please wait</string>
+    <string name="s1_wait">Please wait......</string>
+    <string name="s_verification">A verification code has been send to your mobile phone</string>
+    <string name="r_code_verificaton">Enter your verification code</string>
+    <string name="s_do_not_have_account_signup">Don\'t have an account? SIGNUP</string>
+    <string name="s_login">Login</string>
+    <string name="s_email_can_not_empty">Email id can\'t be empty</string>
+    <string name="s_password_can_not_empty">Password can\'t be empty</string>
+    <string name="s_password_length">Password should be 6 to 20 charactors</string>
+    <string name="s_logout">Logout</string>
+    <string name="s_signup">SignUp</string>
+    <string name="s_no_internet">No internet !</string>
+    <string name="s_search">Search</string>
+    <string name="s_order_history">Order History</string>
+
+    <string-array name="all">
+        <item>All</item>
+    </string-array>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="s_welcome">Welcome</string>
+    <string name="s_please_enter_email">Please enter your email id</string>
+    <string name="s_please_enter_valid_email">Please enter a valid email id</string>
+    <string name="s_please_enter_name">Please enter your  name</string>
+    <string name="s_name_limit">Full name can\'t be less than two characters</string>
+    <string name="s_please_enter_number">Please enter your mobile number</string>
+    <string name="s_number_limit">Mobile number must be 10 to 12 characters long</string>
+    <string name="s_password_can_not_be_empty">Password can\'t be empty</string>
+    <string name="s_confirm_password_can_not_be_empty">Confirm password can\'t be empty</string>
+    <string name="s_something_went_wrong">Something went wrong !</string>
+    <string name="s_store_location">Store Location</string>
+    <string name="s_your_location">Your Location</string>
+    <string name="s_store_list">Store List</string>
+    <string name="s_nearest_store">Nearest Store</string>
+    <string name="s_under_development">Under Development</string>
+    <string name="s_store_locator">Superstore Locator</string>
+    <string name="s_select_pack_size">Select Pack Size</string>
+    <string name="s_gallery">Gallery</string>
+    <string name="s_camera">Camera</string>
+    <string name="s_add_images">Add Image</string>
+    <string name="image_action">imageAction</string>
+    <string name="crash_toast_text">Crash report</string>
+
+
+    <!-- cakes and flowers  -->
+    <string-array name="cakes_array">
+        <item>Anniversary &amp; Wedding Cakes</item>
+        <item>Birthday Cakes</item>
+        <item>Kids Cakes</item>
+    </string-array>
+
+    <string-array name="flowers_array">
+        <item>Worshy Flower</item>
+        <item>Love Flower</item>
+        <item>Friendship Flower</item>
+    </string-array>
+    <!-- cakes and flowers  ends -->
+
+    <!-- fruits and vbegitables  starts -->
+    <string-array name="fruits_array">
+        <item>All</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Exotic Fruits</item>
+        <item>Mango</item>
+        <item>Oranges and Sweet Lime</item>
+        <item>Others Fruits</item>
+    </string-array>
+
+    <string-array name="vegitable_array">
+        <item>All</item>
+        <item>Beans &amp; Brinjal</item>
+        <item>Chilli &amp; Lemon</item>
+        <item>Exotic Vegitables</item>
+        <item>Garlic &amp; Ginger</item>
+        <item>Guards &amp; Cucumbers</item>
+        <item>Leafy Vegetables</item>
+        <item>Others Vegetables</item>
+        <item>Potato, Onion and Tomato</item>
+        <item>Root Vegitables</item>
+    </string-array>
+
+    <!-- fruits and vbegitables  ends -->
+
+
+    <!-- grocery and staples -->
+    <string-array name="DryFruits">
+        <item>All</item>
+        <item>Almond</item>
+        <item>Cashews</item>
+        <item>Other Dry Fruits</item>
+        <item>Raisins</item>
+
+
+    </string-array>
+
+    <string-array name="EdibleOilGhee">
+        <item>All</item>
+        <item>Ghee</item>
+        <item>Groundnut oils</item>
+        <item>Mustard oils</item>
+        <item>Olive oils </item>
+        <item>Others oils</item>
+        <item>Soya oils</item>
+        <item>Sunflower oils</item>
+        <item>Vanaspati </item>
+    </string-array>
+
+
+    <string-array name="Flours">
+        <item>All</item>
+        <item>Besan</item>
+        <item>Maida</item>
+        <item>Other flours</item>
+        <item>Sooji &amp; Rava</item>
+        <item> Wheat Flour</item>
+    </string-array>
+
+    <string-array name="pulses">
+        <item>All</item>
+        <item>Channa Dal</item>
+        <item>Moong Dal</item>
+        <item>Other Dals</item>
+        <item> Raw Peanuts</item>
+        <item> Soya Products</item>
+        <item> Toor Dal</item>
+        <item> Urad Dal </item>
+    </string-array>
+
+    <string-array name="rice_varients">
+        <item>All</item>
+        <item>Avalakki/Poha</item>
+        <item>Basmati Rice</item>
+        <item>Other Rice Variants</item>
+        <item> Raw Rice Variants</item>
+        <item> Raw Rice</item>
+    </string-array>
+
+    <string-array name="salts_and_sugar">
+        <item>All</item>
+        <item>Gaggery</item>
+        <item>Salt</item>
+        <item>Sugar</item>
+        <item>Sugar Cubes</item>
+        <item> Sugar Free</item>
+    </string-array>
+    <string-array name="spices">
+        <item>All</item>
+        <item>Cooking Paste</item>
+        <item>Powedered Spices </item>
+        <item>Ready Masalas</item>
+        <item>Whole Spices</item>
+    </string-array>
+    <!-- grocery and staples ends here -->
+
+
+    <!-- beverages starts here -->
+    <string-array name="energy_and_health_drink">
+        <item>All</item>
+        <item>Energy Drinks</item>
+        <item>Health Drinks</item>
+    </string-array>
+    <string-array name="fruits_drink_juice">
+        <item>All</item>
+        <item>Concentrates</item>
+        <item>Mango Juices</item>
+        <item>Mix Fruit</item>
+        <item>Orange and Apple Juices</item>
+        <item>Other Flavours</item>
+        <item>Syrups &amp; Squashes</item>
+
+    </string-array>
+
+    <string-array name="packged_drinking_water">
+        <item>All</item>
+    </string-array>
+
+    <string-array name="soft_drinks">
+        <item>All</item>
+        <item>Cola Flavour</item>
+        <item>Lemon Flavour</item>
+        <item>Orange Flavour</item>
+        <item>Other Flavour</item>
+    </string-array>
+    <string-array name="tea_coffee">
+        <item>All</item>
+        <item>Coffee</item>
+        <item>Green tea</item>
+        <item>Tea</item>
+        <item>Tea bags</item>
+    </string-array>
+    <!-- Beverages ends here -->
+
+    <!-- household starts here -->
+    <string-array name="air_freshners">
+        <item>All</item>
+        <item>Car Freshners</item>
+        <item>Room Freshners</item>
+    </string-array>
+
+    <string-array name="cleaning_accessories">
+        <item>All</item>
+        <item>Brooms</item>
+        <item>Brushes &amp; Scrubbers</item>
+        <item>Cleaning &amp; Dust Cloth</item>
+        <item>Toilet Brushes</item>
+        <item>Wiper</item>
+        <item>Wipes and Tissues</item>
+
+    </string-array>
+
+    <string-array name="detergents_and_bars">
+        <item>All</item>
+        <item>Cloth Washing Bars</item>
+        <item>Cloth Washing Powers</item>
+        <item>Liquid Detergent</item>
+        <item>Whiteners &amp; Stain Remover</item>
+    </string-array>
+    <!--  household ends here -->
+
+    <!-- personal care -->
+    <string-array name="baby_care">
+        <item>All</item>
+        <item>Baby Care Accessories</item>
+        <item>Baby Cream &amp; Lotion</item>
+        <item>Baby Oil &amp; Shampoos</item>
+        <item>Baby Powder</item>
+        <item>Baby Soap</item>
+        <item>Diapers &amp; Wipes</item>
+    </string-array>
+
+    <string-array name="cosmatics">
+        <item>All</item>
+        <item>Eye Care</item>
+        <item>Nail Care</item>
+    </string-array>
+
+    <string-array name="deos_and_perfumes">
+        <item>All</item>
+        <item>Mens Deo &amp; Body Spray</item>
+        <item>Mens Perfumes</item>
+        <item>Womens Deo &amp; Body Spray</item>
+        <item>Womens perfume</item>
+    </string-array>
+
+    <string-array name="hair_care">
+        <item>All</item>
+        <item>Hair Colors &amp; Dyes</item>
+        <item>Hair Conditioner</item>
+        <item>Hair Gel</item>
+        <item>Hair Oil</item>
+        <item>Hair Remover</item>
+        <item>Shampoo</item>
+    </string-array>
+
+    <string-array name="health_care">
+        <item>All</item>
+        <item>Antiseptics</item>
+        <item>Cotton &amp; Bandages</item>
+        <item>Energy Powders</item>
+        <item>Health Suppliments</item>
+        <item>Pain Relievers</item>
+    </string-array>
+
+    <string-array name="oral_care">
+        <item>All</item>
+        <item>Mouthwash</item>
+        <item>Tooth Powder</item>
+        <item>Tooth Brush</item>
+        <item>Tooth Paste</item>
+    </string-array>
+
+    <string-array name="personal_hygine">
+        <item>All</item>
+        <item>Face Wash</item>
+        <item>Hand Sanitizer</item>
+        <item>Hand Wash</item>
+        <item>Liquid Shops</item>
+        <item>Shop Bars</item>
+    </string-array>
+
+    <string-array name="sanitary_needs">
+        <item>All</item>
+        <item>Sanitary Pads</item>
+    </string-array>
+    <string-array name="shaving_needs">
+        <item>All</item>
+        <item>After Shave Lotions</item>
+        <item>Shaving Blades &amp; Razors</item>
+        <item>Shaving Cream, Foam &amp; Gels</item>
+    </string-array>
+
+    <string-array name="skin_care">
+        <item>All</item>
+        <item>Bleach</item>
+        <item>Body Oil</item>
+        <item>Face Cream</item>
+        <item>Face packs &amp; Scrubs</item>
+        <item>Lip Care</item>
+        <item>Moisturizers &amp; Lotion</item>
+        <item>Talc and Powder</item>
+    </string-array>
+    <!-- personal care end shere -->
+
+    <!-- dairy and breads starts here -->
+    <string-array name="bakes_and_shake">
+        <item>All</item>
+    </string-array>
+
+    <string-array name="bread_and_bakery">
+        <item>All</item>
+        <item>Breads</item>
+        <item>Cakes</item>
+        <item>Muffins, Rusk &amp; Hand Made Cookies</item>
+        <item>Pav &amp; Buns</item>
+    </string-array>
+
+    <string-array name="dairy_product">
+        <item>All</item>
+        <item>Butter &amp; Cream</item>
+        <item>Butter Milk</item>
+        <item>Chees</item>
+        <item>Condensed Milk and Whiteners</item>
+        <item>Curd, Yougurt &amp; Lassi</item>
+        <item>Flavoured Milk</item>
+        <item>Ice Creams &amp; Desserts</item>
+        <item>Paked Milk</item>
+        <item>Paneer &amp; Tofu</item>
+        <item>Soya Drinks</item>
+    </string-array>
+
+    <string-array name="eggs">
+        <item>All</item>
+    </string-array>
+    <!-- dairy and breads ends here -->
+
+    <!-- branded foods -->
+    <string-array name="baby_food">
+        <item>All</item>
+        <item>Baby Food and Cereals</item>
+    </string-array>
+
+    <string-array name="baking_dessert_items">
+        <item>All</item>
+        <item>Baking Ingredients</item>
+        <item>Custerd Powder and Jelly</item>
+        <item>Ready Baking Mixes</item>
+    </string-array>
+
+    <string-array name="biscuits_cookies">
+        <item>All</item>
+        <item>Cookies</item>
+        <item>Cream Biscuits</item>
+        <item>Glucose, Marie &amp; Milk Biscuits</item>
+        <item>Healthy &amp; Digestive Biscuits</item>
+        <item>Salty Biscuits</item>
+        <item>Wafers</item>
+    </string-array>
+
+    <string-array name="breakfast_cereals">
+        <item>All</item>
+        <item>Cookies</item>
+        <item>Chocos</item>
+        <item>Flakes</item>
+        <item>Oats</item>
+    </string-array>
+
+    <string-array name="chocolates_candies_sweets">
+        <item>All</item>
+        <item>Chewing Gums</item>
+        <item>Chocolates</item>
+        <item>Festive Gift Packs</item>
+        <item>Mouth Freshners</item>
+        <item>Toffees &amp; Candies</item>
+    </string-array>
+
+    <string-array name="gift_and_sweets">
+        <item>All</item>
+        <item>Gift Pack from Aakash</item>
+        <item>Gift Pack from Prakash</item>
+        <item>Gift Pack from Cadbury</item>
+        <item>Gift Pack from Haldiram</item>
+    </string-array>
+
+    <string-array name="indian_sweets">
+        <item>All</item>
+        <item>Other Sweets</item>
+        <item>Rasgulla &amp; Gulab Jamun</item>
+    </string-array>
+
+    <string-array name="jams_and_spreads">
+        <item>All</item>
+        <item>Cheese Spreads &amp; Mayonnaise</item>
+        <item>Honey</item>
+        <item>Marmalade</item>
+        <item>Mixed Fruit Jam</item>
+        <item>Other Jam Flavours</item>
+    </string-array>
+
+    <string-array name="namkeen">
+        <item>All</item>
+    </string-array>
+
+
+    <string-array name="noodles_marconi_and_paste">
+        <item>All</item>
+        <item>Chinese Noodles</item>
+        <item>Instant Noodles</item>
+        <item>Macroni</item>
+        <item>Pasta</item>
+        <item>Vermicelli &amp; Sewaiyan</item>
+    </string-array>
+    <string-array name="pickles">
+        <item>All</item>
+        <item>Lime Pickles</item>
+        <item>Mango Pickle</item>
+        <item>Mix Pickle</item>
+        <item>Other Pickles</item>
+    </string-array>
+
+    <string-array name="ready_to_eat_and_cook">
+        <item>All</item>
+        <item>Frozen Food</item>
+        <item>Papad and Fryums</item>
+        <item>Ready Mix</item>
+        <item>Soups</item>
+        <item>South Indian Mix</item>
+    </string-array>
+
+    <string-array name="sauces_and_ketchup">
+        <item>All</item>
+        <item>Chilli &amp; Soya Sauces</item>
+        <item>Cooking Sauce</item>
+        <item>Other Sauces</item>
+        <item>Tomato Sauce &amp; Ketchup</item>
+        <item>Vinegar</item>
+    </string-array>
+
+    <string-array name="veg_snakes">
+        <item>All</item>
+        <item>Chips &amp; Wafers</item>
+        <item>Corn Snacks and Popcorn</item>
+        <item>Falhari Namkeen</item>
+        <item>Kurkure</item>
+        <item>Other Veg Snacks</item>
+        <item>Sev &amp; Mixtures</item>
+        <item>Snaky Nuts</item>
+    </string-array>
+
+
+    <!-- branded foods ends -->
+</resources>

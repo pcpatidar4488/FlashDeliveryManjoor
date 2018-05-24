@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_10"
+    android:background="@color/colorPrimaryDark"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/txt_extra_large"
+    android:text="@string/s_select_reason"
+    android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/txt_extra_large"
+        android:text="@string/s_enquiry"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/txt_extra_large"
+        android:text="@string/s_feedback"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/txt_extra_large"
+        android:text="@string/s_suggestion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/txt_extra_large"
+        android:text="@string/s_complaint"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/txt_extra_large"
+        android:text="@string/s_online_payment_issues"/>
+</LinearLayout>

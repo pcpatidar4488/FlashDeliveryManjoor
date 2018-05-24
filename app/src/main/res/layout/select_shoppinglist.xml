@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_root_layout">
+    <include layout="@layout/layout_toolbar"/>
+    <TextView
+        android:id="@+id/tv_newlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New List"
+        android:textSize="@dimen/dp1_15"
+       android:padding="@dimen/dp1_10"
+        android:textColor="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
+        android:drawablePadding="@dimen/dp_10"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_shopping">
+
+    </android.support.v7.widget.RecyclerView>
+    <include layout="@layout/layout_progressbar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressbar"
+        android:visibility="gone"/>
+
+</LinearLayout>

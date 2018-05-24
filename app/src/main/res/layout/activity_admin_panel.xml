@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_rootlayout"
+    tools:context="com.example.manjooralam.flashdelivery.activities.AdminPanelActivity">
+    <ImageView
+        android:id="@+id/item_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="@dimen/dp1_10"
+        android:visibility="visible"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="@dimen/dp_20"
+        android:hint="Item Name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp1_10"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:layout_margin="@dimen/dp_5"
+        android:hint="Item Name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+
+    <EditText
+        android:id="@+id/item_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp1_10"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:layout_margin="@dimen/dp_5"
+        android:hint=" discount price"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/item_orginal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp1_10"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:layout_margin="@dimen/dp_5"
+        android:hint=" Original Price"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/item_maxcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp1_10"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:layout_margin="@dimen/dp_5"
+        android:hint=" max Count"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="number"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp1_10"
+            android:visibility="visible"
+            android:background="@android:color/white"
+            android:layout_margin="@dimen/dp_5"
+            android:text=" amount"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/discount_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:layout_below="@id/item_amount"
+            android:hint="discount price"/>
+
+        <EditText
+            android:id="@+id/original_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:layout_below="@id/discount_price"
+            android:hint="original price"/>
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:layout_below="@id/original_price"
+            android:hint="quantity"/>
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:layout_below="@id/quantity"
+            android:text="add"
+            android:background="@color/cardview_dark_background"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/amount_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:layout_below="@id/quantity"
+            android:text="add"
+            android:background="@color/cardview_dark_background"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/push"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_5"
+        android:visibility="visible"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="@dimen/dp_10"
+        android:hint=" PUSH DATA"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+</LinearLayout>
